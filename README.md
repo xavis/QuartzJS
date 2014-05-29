@@ -9,28 +9,28 @@ It is easy to use, the scene is based in a tree structure where the nodes repres
 
 Here a simple example where we load an object and traslate and rotate it:
 
-  var root = QUARTZ.getRoot();
+  	var root = QUARTZ.getRoot();
   
-  var trans = QUARTZ.createTransform();
-  trans.setTraslation(0,0,-7);
-  trans.addRotation(90, [1,0,0]);
-  trans.setScale(2);
+  	var trans = QUARTZ.createTransform();
+  	trans.setTraslation(0,0,-7);
+  	trans.addRotation(90, [1,0,0]);
+  	trans.setScale(2);
   
-  var shape = QUARTZ.createMesh();
-  shape.loadModel("Object.obj);
-  shape.color = [1,0,0,1]; //RGBA
-  shape.loadTexture("texture.png");
+  	var shape = QUARTZ.createMesh();
+  	shape.loadModel("Object.obj);
+  	shape.color = [1,0,0,1]; //RGBA
+  	shape.loadTexture("texture.png");
   
-  var light = TORNADO.createLight();
-	light.setLight([0.2,0.2,0.2],[0.2,0.2,0.2],0.4,[0,0,0],[-4.4,10,-5],20); //(AMBIENTAL COLOR, DIFFUSE COLOR, SPECULAR FACTOR, DIRECTION, POSITION, INTENSITY
+  	var light = TORNADO.createLight();
+		light.setLight([0.2,0.2,0.2],[0.2,0.2,0.2],0.4,[0,0,0],[-4.4,10,-5],20); //(AMBIENTAL COLOR, DIFFUSE COLOR, SPECULAR FACTOR, DIRECTION, POSITION, INTENSITY
   
-  QUARTZ.addLight(light,root);
+  	QUARTZ.addLight(light,root);
   
-  var transNode = QUARTZ.addTransform(trans,root);
+  	var transNode = QUARTZ.addTransform(trans,root);
   
-  var shapeNode = QUARTZ.addShape(shape,root);
+  	var shapeNode = QUARTZ.addShape(shape,root);
   
-  QUARTZ.init("webGL"); // "webGL" is canvas ID attribute value
+  	QUARTZ.init("webGL"); // "webGL" is canvas ID attribute value
   
   
 
