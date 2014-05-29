@@ -332,6 +332,10 @@ QUARTZ.Mesh.prototype = {
 	this.fileURL = fURL; 
 	K3D.load(this.fileURL,this.initArrays, this);},
 
+	loadTexture : function(tURL) {
+		this.textureURL = tURL;
+	},
+
 	beginDraw   : function(	) { //MAIN DRAW FUNCTION IN QUARTZ
 
 		var prog;
