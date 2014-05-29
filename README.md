@@ -35,5 +35,7 @@ Here a simple example where we load an object and traslate and rotate it:
   
 
 QuartzJS is open for anyone who wants help me with it to join QuartzJS project.
+
 Website: quartzjs.javiersr.com
+
 Email: info@javiersr.com
