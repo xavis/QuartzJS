@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-tornadojs
-=========
-
-3D Javascript Engine Open Source.
-Developed by: Pablo Niñoles Aznar, Alvaro Yuste Torregrosa, Javier Sanchez Riquelme
-
-Greetings
-=======
 QuartzJS
 ========
 
@@ -48,4 +39,3 @@ QuartzJS is open for anyone who wants help me with it to join QuartzJS project.
 Website: quartzjs.javiersr.com
 
 Email: info@javiersr.com
->>>>>>> 34ad00f281f6ca1a4817275d02041e0e16a23eb3
