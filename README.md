@@ -21,7 +21,7 @@ Here a simple example where we load an object and traslate and rotate it:
   	shape.color = [1,0,0,1]; //RGBA
   	shape.loadTexture("texture.png");
   
-  	var light = TORNADO.createLight();
+  	var light = QUARTZ.createLight();
 	light.setLight([0.2,0.2,0.2],[0.2,0.2,0.2],0.4,[0,0,0],[-4.4,10,-5],20); //(AMBIENTAL COLOR, DIFFUSE COLOR, SPECULAR FACTOR, DIRECTION, POSITION, INTENSITY)
   
   	QUARTZ.addLight(light,root);
