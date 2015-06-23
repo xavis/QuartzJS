@@ -28,7 +28,7 @@ Here a simple example where we load an object and traslate and rotate it:
   
   	var transNode = QUARTZ.addTransform(trans,root);
   
-  	var shapeNode = QUARTZ.addShape(shape,root);
+  	var shapeNode = QUARTZ.addMesh(shape,root);
   
   	QUARTZ.init("webGL"); // "webGL" is canvas ID attribute value
   
